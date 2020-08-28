@@ -8,4 +8,6 @@
     <color name="driver_position_black">#212322</color>
 
     <color name="soft_tyre_compound_red">#B6101E</color>
+    <color name="medium_tyre_compound_yellow">#F5DC00</color>
+    <color name="hard_tyre_compound_white">#FEFFFF</color>
 </resources>
