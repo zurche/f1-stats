@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lap_sector_dark_background">
+
+    <View
+        android:id="@+id/driver_name_background_view"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:background="@color/pitch_black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/driver_position_text_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:background="@color/position_white_background"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="@color/driver_position_black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@id/driver_name_background_view"
+        app:layout_constraintStart_toStartOf="@id/driver_name_background_view"
+        app:layout_constraintTop_toTopOf="@id/driver_name_background_view"
+        tools:text="2" />
+
+    <View
+        android:id="@+id/team_color_divider_view"
+        android:layout_width="5dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/mercedes_green"
+        app:layout_constraintBottom_toBottomOf="@+id/driver_position_text_view"
+        app:layout_constraintStart_toEndOf="@id/driver_position_text_view"
+        app:layout_constraintTop_toTopOf="@+id/driver_position_text_view" />
+
+    <TextView
+        android:id="@+id/driver_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textColor="@color/lap_sector_text_white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/driver_position_text_view"
+        app:layout_constraintStart_toEndOf="@+id/team_color_divider_view"
+        app:layout_constraintTop_toTopOf="@+id/driver_position_text_view"
+        tools:text="HAMILTON" />
+
+    <com.zurche.f1stats.TyreCompoundView
+        android:id="@+id/tyre_compound_view"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@id/driver_name_background_view"
+        app:layout_constraintEnd_toEndOf="@id/driver_name_background_view"
+        app:layout_constraintTop_toTopOf="@id/driver_name_background_view" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

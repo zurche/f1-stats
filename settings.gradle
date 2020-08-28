@@ -1,0 +1,3 @@
+include ':f1stats'
+include ':app'
+rootProject.name = "F1 Stats Sample App"

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mercedes_green">#1DD1AD</color>
+    <color name="pitch_black">#020101</color>
+    <color name="lap_sector_dark_background">#0D0E0E</color>
+    <color name="position_white_background">#FEFFFF</color>
+    <color name="lap_sector_text_white">#EBEBEB</color>
+    <color name="driver_position_black">#212322</color>
+
+    <color name="soft_tyre_compound_red">#B6101E</color>
+</resources>
