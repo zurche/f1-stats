@@ -1,0 +1,5 @@
+<resources>
+    <string name="soft_compound_tyre">S</string>
+    <string name="medium_compound_tyre">M</string>
+    <string name="hard_compound_tyre">H</string>
+</resources>

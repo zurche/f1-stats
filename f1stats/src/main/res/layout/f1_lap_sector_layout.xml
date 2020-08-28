@@ -59,6 +59,7 @@
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginEnd="16dp"
+        app:compound="medium"
         app:layout_constraintBottom_toBottomOf="@id/driver_name_background_view"
         app:layout_constraintEnd_toEndOf="@id/driver_name_background_view"
         app:layout_constraintTop_toTopOf="@id/driver_name_background_view" />

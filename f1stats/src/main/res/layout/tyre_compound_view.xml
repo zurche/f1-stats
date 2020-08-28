@@ -8,9 +8,10 @@
     tools:layout_gravity="center">
 
     <View
+        android:id="@+id/compound_color_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/tyre_compound"
+        android:background="@drawable/soft_tyre_compound_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
